@@ -1,0 +1,24 @@
+name = input("What is Your name?: ")
+
+vowels = 0
+
+for letter in name:
+    print(f"ตัวอักษร: {letter}")
+
+    if letter == 'a' or letter == 'A':
+        vowels = vowels + 1
+
+    if letter == 'e' or letter == 'E':
+        vowels = vowels + 1
+
+    if letter == 'i' or letter == 'I':
+        vowels = vowels + 1
+
+    if letter == 'o' or letter == 'O':
+        vowels = vowels + 1
+
+    if letter == 'u' or letter == 'U':
+        vowels = vowels + 1
+
+print(f"What is Your name : {name}")
+print(f"Your name have : {vowels} vowels.")
