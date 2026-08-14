@@ -12,5 +12,3 @@ radius = float(input("Enter radius: "))
 volume = calculate_sphere(radius)
 
 print("Volume of sphere =", volume)
-
-
